@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data files (large SAR scenes)
+data/
+*.SAFE
+*.SAFE.zip
+*.zip
+
+# Output files
+output/
+mnt/
+
+# SNAP / Java logs
+hs_err_pid*.log
+freeze_log
+*.hprof
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.gemini/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SAR datasets
+sar-ship/
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Validation / test scripts (not part of core pipeline)
+validate.py
+validate_arrays.py
+visualize_normalized.py
+download_dataset.py
+snap.py
+snappy.ini
